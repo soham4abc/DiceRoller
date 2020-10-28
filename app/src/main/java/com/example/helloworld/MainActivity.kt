@@ -29,21 +29,8 @@ import kotlinx.android.synthetic.main.activity_main.*
         }
      private fun count()
      {
-         if ((randomInt >=1)&&(randomInt<6)) {
-             randomInt += 1
-             result_text.text = randomInt.toString()
-             var resultText:TextView=findViewById(R.id.result_text)
 
-         }
-         else if(randomInt==6)
-         {
-             result_text.text = randomInt.toString()
-             var resultText:TextView=findViewById(R.id.result_text)
-
-         }
-         else
-             randomInt=1
-         result_text.text = randomInt.toString()
+         result_text.text ="That's how we Roll!"
          var resultText:TextView=findViewById(R.id.result_text)
 
      }
